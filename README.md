@@ -1,4 +1,6 @@
 ### Hi there 👋
+<h1 align="center">Hi 👋, I'm Amroli BCA</h1>
+<h3 align="center">A passionate Tutor from India</h3>
 
 <!--
 **sbccas/sbccas** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
