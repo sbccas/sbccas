@@ -27,6 +27,14 @@
   <img src="https://img.shields.io/badge/AI%20Assisted-8B5CF6?style=flat-square&logo=openai&logoColor=white" alt="AI Assisted" />
 </p>
 
+<p align="center">
+  <a href="website/index.html"><strong>🌐 Explore Web Portal</strong></a> &nbsp;•&nbsp;
+  <a href="docs/GETTING_STARTED.md"><strong>🚀 Start Learning</strong></a> &nbsp;•&nbsp;
+  <a href="docs/learning-paths/bca.md"><strong>🗺️ Learning Paths</strong></a> &nbsp;•&nbsp;
+  <a href="docs/AI_ERA_LEARNING.md"><strong>🤖 AI-Era Learning</strong></a> &nbsp;•&nbsp;
+  <a href="data/repositories.json"><strong>📦 Repository Catalog</strong></a>
+</p>
+
 ---
 
 </div>

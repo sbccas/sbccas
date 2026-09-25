@@ -1,0 +1,43 @@
+name: Validate Repository Catalog & Syntax
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validate Catalog JSON Syntax
+        run: |
+          python -m json.tool data/repositories.json > /dev/null
+          echo "data/repositories.json is valid JSON"
+          python -m json.tool website/data/repositories.json > /dev/null
+          echo "website/data/repositories.json is valid JSON"
+
+      - name: Check Required Files Exist
+        run: |
+          test -f README.md
+          test -f website/index.html
+          test -f website/styles.css
+          test -f website/script.js
+          test -f docs/ARCHITECTURE.md
+          test -f docs/GETTING_STARTED.md
+          test -f docs/AI_ERA_LEARNING.md
+          test -f docs/CONTRIBUTING.md
+          test -f docs/FUTURE_RECOMMENDATIONS.md
+          test -f docs/learning-paths/bca.md
+          test -f docs/learning-paths/bca-ai.md
+          test -f docs/learning-paths/bsc-data-science.md
+          test -f docs/learning-paths/bsc-it.md
+          echo "All structural files verified successfully!"
