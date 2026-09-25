@@ -2,41 +2,281 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=website/index.html">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SBCCAS — Digital Academic Portal</title>
-  <link rel="canonical" href="website/index.html">
-  <style>
-    body {
-      background-color: #0d1117;
-      color: #f0f6fc;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      text-align: center;
-    }
-    a {
-      color: #58a6ff;
-      text-decoration: none;
-      font-weight: 600;
-      margin-top: 1rem;
-      display: inline-block;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+  <title>SBCCAS — Digital Academic Ecosystem | Amroli College</title>
+  <meta name="description" content="Official academic technology ecosystem of Sutex Bank College of Computer Applications and Science (Amroli College), VNSGU. Learning Beyond the Classroom. Building for the AI Era.">
+  <meta name="keywords" content="SBCCAS, Amroli College, BCA, BCA AI, Data Science, VNSGU, Computer Applications, Python, Machine Learning, GitHub">
+  <meta name="author" content="SBCCAS - Amroli College">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SBCCAS — Digital Academic Ecosystem">
+  <meta property="og:description" content="Learning Beyond the Classroom. Building for the AI Era. Academic resources, datasets, practical programs, and projects.">
+  <meta property="og:url" content="https://github.com/sbccas">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧠</text></svg>">
 </head>
 <body>
-  <h1>🧠 SBCCAS Digital Academic Portal</h1>
-  <p>Redirecting to portal experience...</p>
-  <p><a href="website/index.html">Click here if you are not redirected automatically →</a></p>
-  <script>
-    window.location.replace("website/index.html");
-  </script>
+  <!-- Header / Navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-container">
+      <a href="#" class="brand" aria-label="SBCCAS Home">
+        <span class="brand-icon">🧠</span>
+        <span class="brand-text"><strong>sbccas</strong> <small class="brand-sub">Amroli College</small></span>
+      </a>
+      <nav class="site-nav" role="navigation" aria-label="Main Navigation">
+        <a href="#about">About</a>
+        <a href="#courses">Courses</a>
+        <a href="#catalog">Repositories</a>
+        <a href="#learning-paths">Learning Paths</a>
+        <a href="#ai-era">AI Era</a>
+        <a href="https://github.com/sbccas" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">GitHub ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="container hero-container">
+      <div class="hero-badge-strip">
+        <span class="pill pill-cyan">🏛️ Amroli College</span>
+        <span class="pill pill-purple">🎓 VNSGU Affiliated</span>
+        <span class="pill pill-green">⚡ Open Academic Ecosystem</span>
+      </div>
+      <h1 class="hero-title">
+        Learning Beyond the Classroom.<br>
+        <span class="gradient-text">Building for the AI Era.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Where Computer Science education meets technology, data, and artificial intelligence. 
+        Access official syllabus labs, interactive notebooks, datasets, and capstone software projects.
+      </p>
+      <div class="hero-actions">
+        <a href="#catalog" class="btn btn-primary">Explore Repositories</a>
+        <a href="#learning-paths" class="btn btn-secondary">Explore Learning Paths</a>
+        <a href="docs/GETTING_STARTED.md" class="btn btn-outline">Start Learning Guide</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- What is SBCCAS -->
+  <section class="section section-about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What is SBCCAS?</h2>
+        <p class="section-lead">
+          The digital academic portal of <strong>Sutex Bank College of Computer Applications and Science (Amroli College)</strong>, Surat.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card info-card">
+          <div class="card-icon">📚</div>
+          <h3>Curriculum Aligned</h3>
+          <p>Verified laboratory exercises, coding demos, and courseware aligned with Veer Narmad South Gujarat University (VNSGU) requirements.</p>
+        </div>
+        <div class="card info-card">
+          <div class="card-icon">🤖</div>
+          <h3>AI-Era Thinking</h3>
+          <p>Training students to work intelligently alongside AI, using Large Language Models, PySpark, and Machine Learning pipelines to build real systems.</p>
+        </div>
+        <div class="card info-card">
+          <div class="card-icon">🚀</div>
+          <h3>From Learner to Builder</h3>
+          <p>Moving from <em>"Give me the code"</em> to <em>"I built this solution"</em> with version control, public portfolios, and open-source practices.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Explore by Course -->
+  <section class="section section-courses" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Explore by Academic Course</h2>
+        <p class="section-lead">Select your degree program to filter verified course repositories.</p>
+      </div>
+
+      <div class="filter-pills" id="course-filter-group" role="group" aria-label="Course Filters">
+        <button class="filter-pill active" data-course="all">All Courses</button>
+        <button class="filter-pill" data-course="BCA">💻 BCA</button>
+        <button class="filter-pill" data-course="BCA - AI">🤖 BCA – AI</button>
+        <button class="filter-pill" data-course="B.Sc. Data Science & Analytics">📊 B.Sc. Data Science & Analytics</button>
+        <button class="filter-pill" data-course="B.Sc. IT">🌐 B.Sc. IT</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Repository Catalog & Discovery -->
+  <section class="section section-catalog" id="catalog">
+    <div class="container">
+      <div class="catalog-control-panel">
+        <div class="search-box">
+          <span class="search-icon" aria-hidden="true">🔍</span>
+          <input type="text" id="repo-search" placeholder="Search by repository name, technology, or topic..." aria-label="Search repositories">
+          <button id="clear-search" class="clear-btn" aria-label="Clear search">✕</button>
+        </div>
+
+        <div class="tech-filter-bar" id="tech-filter-group" role="group" aria-label="Technology Filters">
+          <span class="tech-filter-label">Filter Tech:</span>
+          <button class="tech-pill active" data-tech="all">All</button>
+          <button class="tech-pill" data-tech="Python">Python</button>
+          <button class="tech-pill" data-tech="C">C Language</button>
+          <button class="tech-pill" data-tech="PySpark">PySpark / Big Data</button>
+          <button class="tech-pill" data-tech="Hugging Face">Hugging Face / LLMs</button>
+          <button class="tech-pill" data-tech="ASP.NET">ASP.NET</button>
+          <button class="tech-pill" data-tech="Android">Android / Java</button>
+        </div>
+      </div>
+
+      <div class="catalog-meta">
+        <span id="catalog-count">Showing repositories...</span>
+      </div>
+
+      <!-- Repositories Grid Container -->
+      <div id="repositories-grid" class="repositories-grid" aria-live="polite">
+        <div class="loading-state">Loading repository ecosystem...</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Learning Paths Section -->
+  <section class="section section-paths" id="learning-paths">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Structured Learning Paths</h2>
+        <p class="section-lead">Step-by-step academic roadmaps from fundamental concepts to project deployment.</p>
+      </div>
+
+      <div class="grid-4">
+        <div class="card path-card">
+          <div class="path-icon">💻</div>
+          <h3>BCA Roadmap</h3>
+          <p>Procedural C (104), Operating Systems (203), Python Scripting (204), Android Apps (305), and ASP.NET.</p>
+          <a href="docs/learning-paths/bca.md" class="card-link">View Learning Path →</a>
+        </div>
+        <div class="card path-card">
+          <div class="path-icon">🤖</div>
+          <h3>BCA – AI Roadmap</h3>
+          <p>Algorithmic logic, data analysis with Pandas, Hugging Face NLP pipelines, and AI-assisted workflows.</p>
+          <a href="docs/learning-paths/bca-ai.md" class="card-link">View Learning Path →</a>
+        </div>
+        <div class="card path-card">
+          <div class="path-icon">📊</div>
+          <h3>B.Sc. Data Science</h3>
+          <p>DS-505 Big Data, distributed PySpark clusters, Scikit-learn modeling, and interactive Jupyter notebooks.</p>
+          <a href="docs/learning-paths/bsc-data-science.md" class="card-link">View Learning Path →</a>
+        </div>
+        <div class="card path-card">
+          <div class="path-icon">🌐</div>
+          <h3>B.Sc. IT Roadmap</h3>
+          <p>Structured C programming, E-Commerce systems, cyber threat defense, and modern developer workflows.</p>
+          <a href="docs/learning-paths/bsc-it.md" class="card-link">View Learning Path →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI-Era Learning Section -->
+  <section class="section section-ai" id="ai-era">
+    <div class="container">
+      <div class="card ai-card">
+        <div class="ai-content">
+          <span class="pill pill-purple">🤖 AI-Era Academic Framework</span>
+          <h2 class="ai-title">Use AI to Accelerate Learning — Never to Replace Thinking.</h2>
+          <p class="ai-text">
+            Modern developers work alongside intelligent models. We teach students to formulate precise prompts, deconstruct complex compiler errors, and challenge AI suggestions while maintaining strict academic integrity.
+          </p>
+          <div class="ai-principles">
+            <div class="principle-item">
+              <strong>💡 Mentorship:</strong> Ask AI to explain complex logic line-by-line.
+            </div>
+            <div class="principle-item">
+              <strong>🐞 Verification:</strong> Never submit code you cannot explain in a viva.
+            </div>
+            <div class="principle-item">
+              <strong>🛡️ Privacy:</strong> Never submit sensitive keys or personal data into prompts.
+            </div>
+          </div>
+          <div class="ai-actions">
+            <a href="docs/AI_ERA_LEARNING.md" class="btn btn-primary">Read AI-Era Learning Guide</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How GitHub Fits into Student Learning -->
+  <section class="section section-journey" id="journey">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">The Student Builder Journey</h2>
+        <p class="section-lead">Transforming classroom study into a career-defining public portfolio.</p>
+      </div>
+
+      <div class="journey-steps">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h4>Explore</h4>
+          <p>Clone college practicals and run interactive Google Colab notebooks.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h4>Experiment</h4>
+          <p>Tweak code, test edge cases, and debug errors with intention.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h4>Build</h4>
+          <p>Create capstone software solving real community and college challenges.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">4</div>
+          <h4>Showcase</h4>
+          <p>Demonstrate working code on your GitHub profile to employers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action / Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-info">
+        <div class="brand footer-brand">
+          <span class="brand-icon">🧠</span>
+          <span class="brand-text"><strong>sbccas</strong> Ecosystem</span>
+        </div>
+        <p class="footer-desc">
+          Sutex Bank College of Computer Applications and Science (Amroli College)<br>
+          Managed by Jivan Jyot Trust | Affiliated with Veer Narmad South Gujarat University (VNSGU)<br>
+          Surat, Gujarat, India.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <div class="link-group">
+          <h5>Guides</h5>
+          <a href="docs/GETTING_STARTED.md">Getting Started</a>
+          <a href="docs/AI_ERA_LEARNING.md">AI Era Learning</a>
+          <a href="docs/CONTRIBUTING.md">Contributing</a>
+        </div>
+        <div class="link-group">
+          <h5>Connect</h5>
+          <a href="https://www.amrolicollege.ac.in" target="_blank" rel="noopener noreferrer">Official Website ↗</a>
+          <a href="https://github.com/sbccas" target="_blank" rel="noopener noreferrer">GitHub Org ↗</a>
+          <a href="https://www.instagram.com/amrolibca/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; SBCCAS Ecosystem. The classroom is where learning begins — the world is where you build.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
