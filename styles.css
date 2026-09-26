@@ -221,6 +221,48 @@ h1, h2, h3, h4, h5 {
   gap: 1rem;
 }
 
+/* Ecosystem Statistics Strip */
+.stats-strip {
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  padding: 1.5rem 0;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.25rem;
+  text-align: center;
+}
+
+.stat-card {
+  padding: 0.85rem 1rem;
+  background-color: rgba(13, 17, 23, 0.5);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  transition: border-color var(--transition-speed);
+}
+
+.stat-card:hover {
+  border-color: var(--accent-cyan);
+}
+
+.stat-number {
+  display: block;
+  font-size: 2.1rem;
+  font-weight: 800;
+  font-family: var(--font-mono);
+  color: var(--accent-cyan);
+  line-height: 1.2;
+}
+
+.stat-label {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
+
 /* Badges & Pills */
 .pill {
   display: inline-flex;
@@ -343,6 +385,47 @@ h1, h2, h3, h4, h5 {
   flex-direction: column;
   gap: 1.25rem;
   margin-bottom: 2rem;
+}
+
+.catalog-controls-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.catalog-controls-row .search-box {
+  flex: 1 1 320px;
+}
+
+.sort-box {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sort-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.sort-select {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1rem;
+  font-size: 0.92rem;
+  font-family: inherit;
+  outline: none;
+  cursor: pointer;
+  transition: border-color var(--transition-speed);
+}
+
+.sort-select:focus {
+  border-color: var(--accent-blue);
 }
 
 .search-box {
@@ -523,9 +606,39 @@ h1, h2, h3, h4, h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 1rem;
+  padding-top: 0.85rem;
   margin-top: 1rem;
   border-top: 1px solid var(--border-color);
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.repo-metrics {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  font-family: var(--font-mono);
+}
+
+.metric-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.tag-featured-badge {
+  font-size: 0.72rem;
+  background-color: rgba(210, 153, 34, 0.15);
+  color: var(--accent-orange);
+  padding: 0.15rem 0.45rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(210, 153, 34, 0.4);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
 }
 
 .repo-cat {

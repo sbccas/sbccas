@@ -1,0 +1,38 @@
+name: Update Repository Catalog
+
+on:
+  schedule:
+    # Run daily at 04:00 UTC
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Catalog Discovery Script
+        run: |
+          python scripts/update_catalog.py
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain data/ website/data/)" ]; then
+            git add data/repositories.json website/data/repositories.json
+            git commit -m "chore(catalog): auto-update repository catalog [skip ci]"
+            git push origin main
+          else
+            echo "No repository catalog changes detected."
+          fi

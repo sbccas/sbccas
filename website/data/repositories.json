@@ -1,143 +1,19 @@
 [
   {
-    "name": "sbccas",
-    "url": "https://github.com/sbccas/sbccas",
-    "description": "The official root repository and digital academic portal for Sutex Bank College of Computer Applications and Science (Amroli College).",
-    "category": "Portal & Ecosystem",
-    "courses": ["BCA", "BCA - AI", "B.Sc. Data Science & Analytics", "B.Sc. IT"],
-    "technologies": ["Markdown", "HTML", "CSS", "JavaScript"],
-    "featured": true,
-    "level": "All Levels",
-    "status": "active"
-  },
-  {
-    "name": "Big-Data-Handling-and-Management-for-Machine-Learning-Applications",
-    "url": "https://github.com/sbccas/Big-Data-Handling-and-Management-for-Machine-Learning-Applications",
-    "description": "DS-505: Complete interactive curriculum, PySpark notebooks, Scikit-learn pipelines & Hugging Face LLM resources for B.Sc. Data Science & Analytics (Sem 5) at SBCCAS (VNSGU).",
-    "category": "Data Science & AI",
-    "courses": ["B.Sc. Data Science & Analytics", "BCA - AI"],
-    "technologies": ["Python", "PySpark", "Scikit-learn", "Hugging Face", "LLMs", "Jupyter Notebook"],
-    "featured": true,
-    "level": "Advanced",
-    "status": "active"
-  },
-  {
-    "name": "data-analytics-using-python",
-    "url": "https://github.com/sbccas/data-analytics-using-python",
-    "description": "Data analytics techniques using Python, focusing on Exploratory Data Analysis (EDA), regression, and supervised learning for practical decision-making.",
-    "category": "Data Science & AI",
-    "courses": ["BCA", "B.Sc. Data Science & Analytics"],
-    "technologies": ["Python", "Pandas", "NumPy", "Machine Learning", "EDA"],
-    "featured": true,
-    "level": "Intermediate",
-    "status": "active"
-  },
-  {
     "name": "amroli-ai-assist",
     "url": "https://github.com/sbccas/amroli-ai-assist",
     "description": "AI-assisted programming and intelligent learning assistant initiatives for computing students at Amroli College.",
     "category": "Data Science & AI",
-    "courses": ["BCA - AI", "BCA", "B.Sc. Data Science & Analytics"],
-    "technologies": ["Python", "AI", "LLMs"],
-    "featured": true,
-    "level": "All Levels",
-    "status": "active"
-  },
-  {
-    "name": "c-programming-tutorials",
-    "url": "https://github.com/sbccas/c-programming-tutorials",
-    "description": "C Programming Tutorials based on First Year BCA Subject 104-CPPM covering procedural programming fundamentals, syntax, control structures, and pointers.",
-    "category": "Programming",
-    "courses": ["BCA"],
-    "technologies": ["C"],
-    "featured": true,
-    "level": "Beginner",
-    "status": "active"
-  },
-  {
-    "name": "Fundamentals-of-Programming-Using-C",
-    "url": "https://github.com/sbccas/Fundamentals-of-Programming-Using-C",
-    "description": "Fundamentals of Programming Using C for B.Sc. IT and M.Sc. IT students aligned with the VNSGU curriculum.",
-    "category": "Programming",
-    "courses": ["B.Sc. IT"],
-    "technologies": ["C"],
-    "featured": false,
-    "level": "Beginner",
-    "status": "active"
-  },
-  {
-    "name": "programming-skills-tutorials",
-    "url": "https://github.com/sbccas/programming-skills-tutorials",
-    "description": "Programming Skills Tutorials based on First Year BCA Semester II Subject 204-Programming Skills, covering practical Python scripting and logic building.",
-    "category": "Programming",
-    "courses": ["BCA"],
-    "technologies": ["Python"],
-    "featured": true,
-    "level": "Beginner",
-    "status": "active"
-  },
-  {
-    "name": "asp.net-tutorials",
-    "url": "https://github.com/sbccas/asp.net-tutorials",
-    "description": "Comprehensive ASP.NET tutorials for BCA students covering Web Forms, server controls, ADO.NET, and SQL Server integration with sample projects and notes.",
-    "category": "Web Development",
-    "courses": ["BCA"],
-    "technologies": ["ASP.NET", "C#", "SQL Server", "Web"],
-    "featured": true,
-    "level": "Intermediate",
-    "status": "active"
-  },
-  {
-    "name": "Practical_Assignment",
-    "url": "https://github.com/sbccas/Practical_Assignment",
-    "description": "Android practical assignments, lab solutions, and demos for Subject 305: Mobile Application Development (MAD-1) in BCA.",
-    "category": "Mobile Development",
-    "courses": ["BCA"],
-    "technologies": ["Android", "Java", "XML"],
-    "featured": true,
-    "level": "Intermediate",
-    "status": "active"
-  },
-  {
-    "name": "operating-system",
-    "url": "https://github.com/sbccas/operating-system",
-    "description": "Course materials and practical exercises for Subject 203: Operating Systems in First Year BCA Semester II.",
-    "category": "Computer Science Core",
-    "courses": ["BCA"],
-    "technologies": ["Operating Systems", "Shell Scripting"],
-    "featured": false,
-    "level": "Beginner",
-    "status": "active"
-  },
-  {
-    "name": "VBDotNetDemos",
-    "url": "https://github.com/sbccas/VBDotNetDemos",
-    "description": "Visual Basic .NET practical demonstrations, GUI forms, and project examples for Second Year BCA students.",
-    "category": "Programming",
-    "courses": ["BCA"],
-    "technologies": ["Visual Basic .NET", "Visual Studio"],
-    "featured": false,
-    "level": "Intermediate",
-    "status": "active"
-  },
-  {
-    "name": "E-Commerce-and-Cyber-Security",
-    "url": "https://github.com/sbccas/E-Commerce-and-Cyber-Security",
-    "description": "Curated academic study material covering electronic commerce architectures, protocols, threat vectors, and cyber security fundamentals.",
-    "category": "Systems & Security",
-    "courses": ["BCA", "B.Sc. IT"],
-    "technologies": ["Cyber Security", "E-Commerce", "Networking"],
-    "featured": false,
-    "level": "Intermediate",
-    "status": "active"
-  },
-  {
-    "name": "github-showcase",
-    "url": "https://github.com/sbccas/github-showcase",
-    "description": "Interactive showcase portal to search, sort, and explore Amroli College GitHub repositories with modern design.",
-    "category": "Showcase & Tools",
-    "courses": ["BCA", "BCA - AI", "B.Sc. Data Science & Analytics", "B.Sc. IT"],
-    "technologies": ["HTML", "CSS", "JavaScript"],
+    "courses": [
+      "BCA - AI",
+      "BCA",
+      "B.Sc. Data Science & Analytics"
+    ],
+    "technologies": [
+      "AI",
+      "LLMs",
+      "Python"
+    ],
     "featured": true,
     "level": "All Levels",
     "status": "active"
@@ -145,32 +21,323 @@
   {
     "name": "amrolisficolleges",
     "url": "https://github.com/sbccas/amrolisficolleges",
-    "description": "Official portal repository for Amroli SFI Colleges highlighting academic programs (BCA, BBA, BCom, BSc Data Science) and student life.",
+    "description": "Welcome to the official GitHub repository for Amroli SFI Colleges! Explore vibrant academic and extracurricular life here. We offer courses in BCA, BBA, BCom, BSc Data Science, and organize cultural festivals, sports, seminars, and placement drives. Stay connected with us!",
     "category": "Institutional",
-    "courses": ["BCA", "B.Sc. Data Science & Analytics"],
-    "technologies": ["JavaScript", "HTML", "Web"],
+    "courses": [
+      "BCA",
+      "B.Sc. Data Science & Analytics"
+    ],
+    "technologies": [
+      "HTML",
+      "JavaScript",
+      "Web"
+    ],
     "featured": false,
     "level": "All Levels",
     "status": "active"
   },
   {
+    "name": "asp.net-tutorials",
+    "url": "https://github.com/sbccas/asp.net-tutorials",
+    "description": "Comprehensive ASP.NET tutorials for BCA students covering Web Forms, server controls, ADO.NET, and SQL Server integration. Includes notes, sample projects, and assignments—ideal for exam prep, practicals, and self-paced learning.",
+    "category": "Web Development",
+    "courses": [
+      "BCA"
+    ],
+    "technologies": [
+      "ASP.NET",
+      "C#",
+      "SQL Server",
+      "Web",
+      "asp-net",
+      "bca",
+      "development",
+      "web",
+      "webdevelopment"
+    ],
+    "featured": true,
+    "level": "Intermediate",
+    "status": "active"
+  },
+  {
+    "name": "Big-Data-Handling-and-Management-for-Machine-Learning-Applications",
+    "url": "https://github.com/sbccas/Big-Data-Handling-and-Management-for-Machine-Learning-Applications",
+    "description": "⚡ DS-505: Complete interactive curriculum, PySpark notebooks, Scikit-learn pipelines & Hugging Face LLM resources for B.Sc. Data Science & Analytics (Sem 5) at SBCCAS (VNSGU).",
+    "category": "Data Science & AI",
+    "courses": [
+      "B.Sc. Data Science & Analytics",
+      "BCA - AI"
+    ],
+    "technologies": [
+      "Hugging Face",
+      "Jupyter Notebook",
+      "LLMs",
+      "PySpark",
+      "Python",
+      "Scikit-learn",
+      "big-data",
+      "data-science",
+      "education",
+      "huggingface-transformers",
+      "jupyter-notebook",
+      "machine-learning",
+      "pyspark",
+      "sbccas",
+      "scikit-learn",
+      "vnsgu"
+    ],
+    "featured": true,
+    "level": "Advanced",
+    "status": "active"
+  },
+  {
     "name": "busappschedule",
     "url": "https://github.com/sbccas/busappschedule",
-    "description": "Student real-time bus scheduler project application showcasing practical scheduling logic.",
+    "description": "Personal Project: Real-Time Bus Scheduler App",
     "category": "Projects & Applications",
-    "courses": ["BCA"],
-    "technologies": ["JavaScript", "Web"],
+    "courses": [
+      "BCA"
+    ],
+    "technologies": [
+      "JavaScript",
+      "Web"
+    ],
     "featured": false,
     "level": "Intermediate",
     "status": "active"
   },
   {
+    "name": "c-programming-tutorials",
+    "url": "https://github.com/sbccas/c-programming-tutorials",
+    "description": "C Programing Tutorials based on First Year BCA Subject 104-CPPM",
+    "category": "Programming",
+    "courses": [
+      "BCA"
+    ],
+    "technologies": [
+      "C",
+      "basic-programming",
+      "c",
+      "clanguage",
+      "programming",
+      "vnsgu"
+    ],
+    "featured": true,
+    "level": "Beginner",
+    "status": "active"
+  },
+  {
+    "name": "data-analytics-using-python",
+    "url": "https://github.com/sbccas/data-analytics-using-python",
+    "description": "This course aims to introduce students to data analytics techniques using Python, with a focus on Exploratory Data Analysis (EDA), regression, and supervised learning. It equips learners with practical skills in handling data, automating EDA, and applying machine learning concepts in real-world scenarios.",
+    "category": "Data Science & AI",
+    "courses": [
+      "BCA",
+      "B.Sc. Data Science & Analytics"
+    ],
+    "technologies": [
+      "EDA",
+      "HTML",
+      "Machine Learning",
+      "NumPy",
+      "Pandas",
+      "Python",
+      "bca",
+      "data-analysis",
+      "data-science",
+      "python",
+      "vnsgu"
+    ],
+    "featured": true,
+    "level": "Intermediate",
+    "status": "active"
+  },
+  {
+    "name": "E-Commerce-and-Cyber-Security",
+    "url": "https://github.com/sbccas/E-Commerce-and-Cyber-Security",
+    "description": "E-Comm-and-Cyber-Security Material",
+    "category": "Systems & Security",
+    "courses": [
+      "BCA",
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "Cyber Security",
+      "E-Commerce",
+      "Networking"
+    ],
+    "featured": false,
+    "level": "Intermediate",
+    "status": "active"
+  },
+  {
+    "name": "Fundamentals-of-Programming-Using-C",
+    "url": "https://github.com/sbccas/Fundamentals-of-Programming-Using-C",
+    "description": "Fundamentals of Programming Using C",
+    "category": "Programming",
+    "courses": [
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "C",
+      "beginner-friendly",
+      "bscit",
+      "c-programming",
+      "mscit",
+      "vnsgu"
+    ],
+    "featured": false,
+    "level": "Beginner",
+    "status": "active"
+  },
+  {
+    "name": "github-showcase",
+    "url": "https://github.com/sbccas/github-showcase",
+    "description": "🚀 Discover Amroli College projects like never before — search, sort, and explore our GitHub repos with style!",
+    "category": "Showcase & Tools",
+    "courses": [
+      "BCA",
+      "BCA - AI",
+      "B.Sc. Data Science & Analytics",
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "featured": true,
+    "level": "All Levels",
+    "status": "active"
+  },
+  {
+    "name": "operating-system",
+    "url": "https://github.com/sbccas/operating-system",
+    "description": "203 Operating System for FYBCA Sem II ",
+    "category": "Computer Science Core",
+    "courses": [
+      "BCA"
+    ],
+    "technologies": [
+      "Operating Systems",
+      "Shell Scripting"
+    ],
+    "featured": false,
+    "level": "Beginner",
+    "status": "active"
+  },
+  {
+    "name": "Practical_Assignment",
+    "url": "https://github.com/sbccas/Practical_Assignment",
+    "description": "Android Practical_Assignment 305 MAD-1",
+    "category": "Mobile Development",
+    "courses": [
+      "BCA"
+    ],
+    "technologies": [
+      "Android",
+      "Java",
+      "XML",
+      "android-application",
+      "bca",
+      "demos",
+      "mad",
+      "practicals"
+    ],
+    "featured": true,
+    "level": "Intermediate",
+    "status": "active"
+  },
+  {
+    "name": "programming-skills-tutorials",
+    "url": "https://github.com/sbccas/programming-skills-tutorials",
+    "description": "Programing Skills Tutorials based on First Year BCA Sem II Subject 204-Programming Skills ",
+    "category": "Programming",
+    "courses": [
+      "BCA"
+    ],
+    "technologies": [
+      "Python"
+    ],
+    "featured": true,
+    "level": "Beginner",
+    "status": "active"
+  },
+  {
     "name": "projectattendance",
     "url": "https://github.com/sbccas/projectattendance",
-    "description": "Student project on digital attendance recording and management systems.",
+    "description": "projectattendance",
     "category": "Projects & Applications",
-    "courses": ["BCA"],
-    "technologies": ["Database", "Web"],
+    "courses": [
+      "BCA"
+    ],
+    "technologies": [
+      "Database",
+      "Web"
+    ],
+    "featured": false,
+    "level": "Intermediate",
+    "status": "active"
+  },
+  {
+    "name": "sbccas",
+    "url": "https://github.com/sbccas/sbccas",
+    "description": "Sutex Bank College of Computer Applications & Science",
+    "category": "Portal & Ecosystem",
+    "courses": [
+      "BCA",
+      "BCA - AI",
+      "B.Sc. Data Science & Analytics",
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Markdown"
+    ],
+    "featured": true,
+    "level": "All Levels",
+    "status": "active"
+  },
+  {
+    "name": "sbccas.github.io",
+    "url": "https://github.com/sbccas/sbccas.github.io",
+    "description": "The public apex domain repository hosting the SBCCAS Digital Academic Portal.",
+    "category": "Portal & Ecosystem",
+    "courses": [
+      "BCA",
+      "BCA - AI",
+      "B.Sc. Data Science & Analytics",
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "CSS",
+      "HTML",
+      "JavaScript"
+    ],
+    "featured": false,
+    "level": "All Levels",
+    "status": "active"
+  },
+  {
+    "name": "VBDotNetDemos",
+    "url": "https://github.com/sbccas/VBDotNetDemos",
+    "description": "Visual Basic . Net Demos for Second Year BCA Students",
+    "category": "Programming",
+    "courses": [
+      "BCA"
+    ],
+    "technologies": [
+      "Visual Basic .NET",
+      "Visual Studio",
+      "bca",
+      "language",
+      "project",
+      "vbnet",
+      "visual-basic",
+      "visual-studio"
+    ],
     "featured": false,
     "level": "Intermediate",
     "status": "active"

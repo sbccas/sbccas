@@ -60,6 +60,28 @@
     </div>
   </section>
 
+  <!-- Ecosystem Live Statistics -->
+  <section class="stats-strip" id="stats" aria-label="Ecosystem Live Metrics">
+    <div class="container stats-container">
+      <div class="stat-card">
+        <span class="stat-number" id="stat-total-repos">--</span>
+        <span class="stat-label">Active Repositories</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-techs">--</span>
+        <span class="stat-label">Technologies & Languages</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-stars">--</span>
+        <span class="stat-label">Community Stars</span>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number" id="stat-courses">4</span>
+        <span class="stat-label">Academic Programs</span>
+      </div>
+    </div>
+  </section>
+
   <!-- What is SBCCAS -->
   <section class="section section-about" id="about">
     <div class="container">
@@ -112,15 +134,27 @@
   <section class="section section-catalog" id="catalog">
     <div class="container">
       <div class="catalog-control-panel">
-        <div class="search-box">
-          <span class="search-icon" aria-hidden="true">🔍</span>
-          <input type="text" id="repo-search" placeholder="Search by repository name, technology, or topic..." aria-label="Search repositories">
-          <button id="clear-search" class="clear-btn" aria-label="Clear search">✕</button>
+        <div class="catalog-controls-row">
+          <div class="search-box">
+            <span class="search-icon" aria-hidden="true">🔍</span>
+            <input type="text" id="repo-search" placeholder="Search by repository name, technology, or topic..." aria-label="Search repositories">
+            <button id="clear-search" class="clear-btn" aria-label="Clear search">✕</button>
+          </div>
+          <div class="sort-box">
+            <label for="repo-sort" class="sort-label">Sort:</label>
+            <select id="repo-sort" class="sort-select" aria-label="Sort repositories">
+              <option value="updated">⚡ Recently Updated</option>
+              <option value="stars">⭐ Most Stars</option>
+              <option value="forks">🍴 Most Forked</option>
+              <option value="name">🔤 Alphabetical (A–Z)</option>
+            </select>
+          </div>
         </div>
 
         <div class="tech-filter-bar" id="tech-filter-group" role="group" aria-label="Technology Filters">
-          <span class="tech-filter-label">Filter Tech:</span>
+          <span class="tech-filter-label">Filter:</span>
           <button class="tech-pill active" data-tech="all">All</button>
+          <button class="tech-pill" data-tech="featured">⭐ Featured Flagships</button>
           <button class="tech-pill" data-tech="Python">Python</button>
           <button class="tech-pill" data-tech="C">C Language</button>
           <button class="tech-pill" data-tech="PySpark">PySpark / Big Data</button>
