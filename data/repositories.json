@@ -191,6 +191,24 @@
     "status": "active"
   },
   {
+    "name": "git-github-fundamentals",
+    "url": "https://github.com/sbccas/git-github-fundamentals",
+    "description": "git-github-fundamentals",
+    "category": "General",
+    "courses": [
+      "BCA",
+      "BCA - AI",
+      "B.Sc. Data Science & Analytics",
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "JavaScript"
+    ],
+    "featured": false,
+    "level": "All Levels",
+    "status": "active"
+  },
+  {
     "name": "github-showcase",
     "url": "https://github.com/sbccas/github-showcase",
     "description": "🚀 Discover Amroli College projects like never before — search, sort, and explore our GitHub repos with style!",
