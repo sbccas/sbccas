@@ -267,6 +267,24 @@
     "status": "active"
   },
   {
+    "name": "Programming-Concepts-and-Programming-Methodology",
+    "url": "https://github.com/sbccas/Programming-Concepts-and-Programming-Methodology",
+    "description": "Programming-Concepts-and-Programming-Methodology",
+    "category": "General",
+    "courses": [
+      "BCA",
+      "BCA - AI",
+      "B.Sc. Data Science & Analytics",
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "C"
+    ],
+    "featured": false,
+    "level": "All Levels",
+    "status": "active"
+  },
+  {
     "name": "programming-skills-tutorials",
     "url": "https://github.com/sbccas/programming-skills-tutorials",
     "description": "Programing Skills Tutorials based on First Year BCA Sem II Subject 204-Programming Skills ",
