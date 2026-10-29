@@ -107,6 +107,24 @@
     "status": "active"
   },
   {
+    "name": "c-programming-pattern-lab",
+    "url": "https://github.com/sbccas/c-programming-pattern-lab",
+    "description": "c-programming-pattern-lab",
+    "category": "General",
+    "courses": [
+      "BCA",
+      "BCA - AI",
+      "B.Sc. Data Science & Analytics",
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "TypeScript"
+    ],
+    "featured": false,
+    "level": "All Levels",
+    "status": "active"
+  },
+  {
     "name": "c-programming-tutorials",
     "url": "https://github.com/sbccas/c-programming-tutorials",
     "description": "C Programing Tutorials based on First Year BCA Subject 104-CPPM",
