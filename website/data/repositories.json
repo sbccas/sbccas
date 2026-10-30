@@ -375,6 +375,22 @@
     "status": "active"
   },
   {
+    "name": "sy-ai-2026-wall",
+    "url": "https://github.com/sbccas/sy-ai-2026-wall",
+    "description": "sy-ai-2026-wall",
+    "category": "General",
+    "courses": [
+      "BCA",
+      "BCA - AI",
+      "B.Sc. Data Science & Analytics",
+      "B.Sc. IT"
+    ],
+    "technologies": [],
+    "featured": false,
+    "level": "All Levels",
+    "status": "active"
+  },
+  {
     "name": "VBDotNetDemos",
     "url": "https://github.com/sbccas/VBDotNetDemos",
     "description": "Visual Basic . Net Demos for Second Year BCA Students",
