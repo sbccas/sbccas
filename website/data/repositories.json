@@ -107,6 +107,24 @@
     "status": "active"
   },
   {
+    "name": "c-programming-array-lab",
+    "url": "https://github.com/sbccas/c-programming-array-lab",
+    "description": "See C arrays, 2-D arrays and strings in memory, step by step.",
+    "category": "General",
+    "courses": [
+      "BCA",
+      "BCA - AI",
+      "B.Sc. Data Science & Analytics",
+      "B.Sc. IT"
+    ],
+    "technologies": [
+      "TypeScript"
+    ],
+    "featured": false,
+    "level": "All Levels",
+    "status": "active"
+  },
+  {
     "name": "c-programming-pattern-lab",
     "url": "https://github.com/sbccas/c-programming-pattern-lab",
     "description": "c-programming-pattern-lab",
